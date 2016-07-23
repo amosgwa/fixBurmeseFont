@@ -1,2 +1,2 @@
-# chromeExtensionStarted
-Getting started with chrome extensions
+# FontPyin Chrome Extension
+FontPyin fixes the font issues for Myanmar on webpages. The majority of Myanmar people use Zawgyi font to communicate over the internet because its initial launch was free compared to its competitors. However, none of the existing OS for mobile and desktop will support the font because it is non-standard. Zawgi font is an altered version of Microsoft's font Tahoma in order to bypass the rendering engine for Myanmar characters. It replaces multiple standard code blocks with variant character drawings. Therefore, it is incompetible with modern devices making webpages unreadable. This extension hopes to fix the readability of the webpages. Adoption of Unicode standard can take time since more than 90% of the Myanmar content over the internet are written in Zawgyi.

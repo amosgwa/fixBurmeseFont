@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "FontPyin",
-    "description": "This extension fixes reading issues for Myanmar fonts on webpages.",
+    "description": "This extension fixes font issues for Myanmar on webpages.",
     "version": "0.1",
 
     "browser_action": {
@@ -16,6 +16,6 @@
         "https://ajax.googleapis.com/"
     ],
 
-	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 
 }

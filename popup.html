@@ -5,33 +5,22 @@
  value "popup.html".
  -->
 <html>
-  <head>
-    <title>Getting Started Extension's Popup</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
-    </style>
 
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-     -->
+<head>
+    <title>Hello there</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="popup.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
+    <div id="standard">Change to Standard MyanmarUnicode</div>
+    <div id="nonstandard">Change to Non-standard(Zawgyi)</div>
     <div id="status"></div>
     <img id="image-result" hidden>
-  </body>
-</html>
+</body>
 
+</html>

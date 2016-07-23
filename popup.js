@@ -8,7 +8,10 @@
  * @param {function(string)} callback - called when the URL of the current tab
  *   is found.
  */
+
+
 function getCurrentTabUrl(callback) {
+  
   // Query filter to be passed to chrome.tabs.query - see
   // https://developer.chrome.com/extensions/tabs#method-query
   var queryInfo = {
@@ -93,6 +96,12 @@ function renderStatus(statusText) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  $('#standard').click(function(){
+    console.log('standard');
+  });
+  $('#nonstandard').click(function(){
+    console.log('nonstandard');
+  });
   getCurrentTabUrl(function(url) {
     // Put the image URL in Google search.
     renderStatus('Performing Google Image search for ' + url);
